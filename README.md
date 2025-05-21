@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 📸 Image Gallery with Search & Infinite Scroll
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React app that displays images from the Unsplash API with features including debounced search, infinite scrolling, and image detail modals. State management is handled by Zustand, and data fetching uses React Query.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Access the Project
 
-### `npm start`
+You can access the **Classic Photo Gallery** project and explore its features live by visiting the deployed site here:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[**View Live Demo**](https://cpgallery.netlify.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Feel free to search for your favorite photos, browse the gallery, and enjoy seamless infinite scrolling. The project is open source, so you can also clone the repository and customize it as you like!
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Features
 
-### `npm run build`
+- 🔍 Search images with debounced input to reduce API calls  
+- 📷 Fetch images from the Unsplash API  
+- 🖼️ Responsive image grid layout  
+- 🔄 Infinite scrolling loads more images as you scroll down  
+- 🪟 Modal popup with image details on click  
+- ⚡ Efficient caching and pagination using React Query  
+- 🔧 Global state management with Zustand  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔑 Environment Variables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a `.env` file in your project root with your Unsplash access key:
 
-### `npm run eject`
+```
+REACT_APP_UNSPLASH_ACCESS_KEY=your_unsplash_access_key_here
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> After editing `.env`, **restart** your development server for changes to take effect.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧑‍💻 Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
 
-## Learn More
+```bash
+git clone https://github.com/your-username/image-gallery.git
+cd image-gallery
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Install dependencies:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+# or
+yarn install
+```
 
-### Code Splitting
+3. **Add your Unsplash API key** to `.env` as shown above.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Start the development server:**
 
-### Analyzing the Bundle Size
+```bash
+npm start
+# or
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⚙️ Usage
 
-### Advanced Configuration
+- Use the search bar at the top to find images by keyword.  
+- Scroll down to load more images automatically.  
+- Click any image to open a modal with the larger view and details.  
+- Close the modal by clicking outside or the close button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Technology      | Role                                   |
+|-----------------|---------------------------------------|
+| React           | UI Library                            |
+| React Query     | Data fetching, caching, pagination    |
+| Zustand         | Global state management                |
+| Axios           | HTTP requests                         |
+| Unsplash API    | Image data source                     |
+| IntersectionObserver | Detect scroll for infinite loading |
+| Vite / Create React App | Project bundler and dev server    |
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙋‍♂️ Contact
+
+For questions or feedback, feel free to reach out at [https://vidhey.netlify.app/]
+
+---
+
+Enjoy building and browsing beautiful images! 📸✨

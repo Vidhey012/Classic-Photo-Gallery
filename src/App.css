@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@font-face {
+  font-family: 'font1';
+  src: url('./fonts/GeraldinePersonalUseItalic-PK12m.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url('../public/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+.headingFont{
+  font-family: 'font1', sans-serif !important;
+  font-size: 60px;
+}
+
 .App {
   text-align: center;
 }
