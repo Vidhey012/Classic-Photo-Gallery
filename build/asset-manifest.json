@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8cfcc16c.css",
+    "main.js": "/static/js/main.d4910d8d.js",
+    "static/js/453.fe5b1732.chunk.js": "/static/js/453.fe5b1732.chunk.js",
+    "static/media/bg.png": "/static/media/bg.bcd0b235976e0bc3cc34.png",
+    "static/media/GeraldinePersonalUseItalic-PK12m.ttf": "/static/media/GeraldinePersonalUseItalic-PK12m.07b14676730419ed2f36.ttf",
+    "index.html": "/index.html",
+    "main.8cfcc16c.css.map": "/static/css/main.8cfcc16c.css.map",
+    "main.d4910d8d.js.map": "/static/js/main.d4910d8d.js.map",
+    "453.fe5b1732.chunk.js.map": "/static/js/453.fe5b1732.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cfcc16c.css",
+    "static/js/main.d4910d8d.js"
+  ]
+}
